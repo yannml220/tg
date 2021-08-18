@@ -1,0 +1,45 @@
+.navbar{
+    position : sticky;
+    width: 100%;
+    height: 70px;
+    background-color: #525252;
+    top : 0;
+    z-index: 999;
+}
+
+.navbar-wrapper{
+    width:100% ;
+    height:100% ;
+    display:flex ;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.navbar-left{
+    height: 100%;
+    
+}
+
+
+.navbar-right{
+    height: 100%;
+    background-color: red;
+}
+
+ul {
+    height : 100% ;
+    display : flex ;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    margin-right: 15px;
+    list-style-type: none;
+}
+
+
+Link {
+    text-decoration: none;
+}
